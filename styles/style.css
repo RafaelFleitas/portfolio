@@ -31,7 +31,7 @@ body {
 
 .cabecalho__menu{
     display: flex;
-    gap: 80px;
+    gap: 5rem;
 }
 
 .cabecalho__menu__link{
@@ -135,12 +135,13 @@ body {
     font-size: 1.5rem;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1000px){
     .cabecalho{
         padding: 10%;
     }
     .cabecalho__menu{
         justify-content: center;
+        gap: 3.75rem;
     }
 
     .apresentacao{
@@ -149,6 +150,10 @@ body {
     }
     .apresentacao__conteudo{
         width: auto;
+    }
+
+    .apresentacao__img{
+        width: 70%;
     }
 
 }
